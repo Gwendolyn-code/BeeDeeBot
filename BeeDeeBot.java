@@ -103,7 +103,7 @@ public class BeeDeeBot extends LinearOpMode {
             rightPower   = Range.clip(drive - turn, -1.0, 1.0) ;
             
             if (gamepad1.left_bumper==true){ 
-                waveyHand.setPosition(1.0);
+                waveyHand.setPosition(0.95);
             }
             if (gamepad1.right_bumper==true){
                 waveyHand.setPosition(0.5);
